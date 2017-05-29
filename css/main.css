@@ -1,3 +1,42 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
+body {
+  background-color: #E0E2DB; }
+
+h1, h2, p, a, span {
+  font-family: 'Signika', sans-serif;
+  font-weight: 300; }
+
+h1, h2 {
+  color: #191716; }
+
+.underline {
+  text-decoration: underline;
+  -webkit-text-decoration-color: #E6AF2E;
+          text-decoration-color: #E6AF2E; }
+
+.search-wrapper {
+  background-color: white;
+  border: 1px dashed #3D348B;
+  width: 50%;
+  min-width: 350px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 20px; }
+  .search-wrapper img {
+    width: 25%; }
+
+input {
+  background-color: #E6AF2E;
+  border: 0;
+  padding: 3px; }
+
+button {
+  background-color: transparent; }
 
 /*# sourceMappingURL=main.css.map */
